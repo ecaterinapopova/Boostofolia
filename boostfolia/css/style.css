@@ -1,0 +1,121 @@
+html { 
+	overflow-x: hidden; 
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.carousel-item {
+	height: 450px;
+}
+
+.carousel-image-1 {
+	background: url('../img/image1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.carousel-image-2 {
+	background: url('../img/image2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.carousel-image-3 {
+	background: url('../img/image3.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+#showcase .container h1 {
+	text-shadow: 3px 3px 6px black;
+	color: #219aaf
+}
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#219aaf' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+ }
+ 
+ .carousel-control-next-icon {
+	 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#219aaf' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+ }
+
+#about-us h3,
+#our-works h3,
+#who-we-are h3,
+#features h3,
+#blog-posts h3,
+#plan h3,
+#contact h3 {
+	border-bottom: 1px solid #219aaf;
+}
+
+#about-us .card {
+	background: #219aaf;
+}
+
+
+#our-works a {
+	color: black;
+	font-size: 12px;
+}
+
+#our-works a.active {
+	font-weight: bold;
+	border-bottom: 1px black solid;
+}
+
+#our-works .projects .col-md-3 {
+	padding: 0;
+}
+
+.card{
+	border: 0;
+}
+
+#plan .card-header,
+#plan .card-body,
+#plan .card {
+	border-radius: 0;
+}
+
+#plan strong {
+	color: #636c73;
+}
+
+#plan .active strong {
+	color: #219aaf;
+}
+
+#contact span,
+.modal-content span {
+	color: #219aaf
+}
+
+#who-we-are .card-body a,
+#main-footer a {
+	color: #fff;
+}
+
+#who-we-are .card-body a:hover,
+#main-footer a:hover {
+	color: #219aaf;
+}
+
+#contact form .data{
+	border: 0;
+	border-bottom: 1px #219aaf solid;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: 0 0 0;
+}
